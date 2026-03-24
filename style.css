@@ -1,0 +1,90 @@
+nav ul{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    gap: 2em;
+    font-size: 2em;
+    font-style: italic;
+     align-items: center;
+    justify-content: center;
+
+}
+
+nav li a{
+    text-decoration: none;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    color: aliceblue;
+   
+}
+nav li a:hover{
+    text-decoration: underline;
+}
+nav li:first-child{
+    margin-right: auto;
+    font-weight: 5em;
+}
+
+.head{
+    font-family:'poppins';
+    margin-top: 50px;
+    padding: 30px;
+    display: flex;
+    color: rgb(17, 202, 141);
+    font-weight: 900;
+    font-size:4em;
+}
+
+body{
+    background-color: #1e242c
+    ;
+}
+
+img{
+    margin: 200px 100px 100px 100px;
+    padding: 30px 30px 30px 30px;
+}
+
+.crop-container{
+    width: 300px;
+    height: 400px;
+    padding: 50px;
+    margin-left: 35px;
+    display: flex;
+    align-items: end;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50px;
+}
+.crop-container img{
+    position: absolute;
+    top: -280px;
+    left: -290px;
+    bottom: -240px;
+    filter: drop-shadow (10px 10px 20px rgba(0, 0, 0, 0.5));
+    
+}
+
+.new{
+    align-items: center;
+    justify-content: end;
+    display: flex;
+}
+.name{
+    display:flex;
+    justify-content: center;
+}
+
+
+
+.style2{
+background-color: aqua;
+}
+.q1{
+    background-color: blue;
+    height: 50px;
+    border-radius: 20px;
+    
+}
